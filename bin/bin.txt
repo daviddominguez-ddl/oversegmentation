@@ -1,0 +1,1 @@
+[bin]:slic_cli
