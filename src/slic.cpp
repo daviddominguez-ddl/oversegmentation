@@ -2,8 +2,8 @@
 //  slic.cpp
 //  slic
 //
-//  Created by David on 10/6/19.
-//  Copyright (c) 2019 David Dominguez. All rights reserved.
+//  Created on 10/6/19.
+// implementation of SLIC algorithm, proposed by  Radhakrishna Achanta et al. (2010)
 //
 
 #include <iostream>
