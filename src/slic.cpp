@@ -3,7 +3,7 @@
 //  slic
 //
 //  Created on 10/6/19.
-// implementation of SLIC algorithm, proposed by  Radhakrishna Achanta et al. (2010)
+//  Implementation of SLIC algorithm, proposed by  Radhakrishna Achanta et al. (2010)
 //
 
 #include <iostream>
