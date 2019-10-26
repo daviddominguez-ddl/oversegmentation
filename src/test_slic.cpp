@@ -50,13 +50,13 @@ int main(int argc,char *argv[]){
     }
     if(arg_in && arg_out && arg_sp){
 
-      std::cout<<"image:  "<<input<<"\n";
-      std::cout<<"result: "<<result<<"\n";
-      std::cout<<"superpixels: "<<numsp<<"\n";
+      std::cout<<"Image:  "<<input<<"\n";
+      std::cout<<"Result: "<<result<<"\n";
+      std::cout<<"Superpixels: "<<numsp<<"\n";
       
       png::image< png::rgb_pixel > image(input);
   
-      SLIC slic(image,numsp,40.0);
+      SLIC slic(image,numsp,40.0); /* input image , num superpixels and compactness*/
       slic.computeSuperpixeles();
       slic.displayContours(result);
     }
