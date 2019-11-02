@@ -83,8 +83,14 @@ void SLIC::computeSuperpixeles(){
   /* RGB to LAB */
   ColorSpaces cs;
   int i,j;
+  /* compute superpixels using CIELAB color space */
+   cs.rgb2lab(rin,gin,bin,size,lvec,avec,bvec);
+
+  /* compute superpixels using HSV color space */
+  //cs.rgb2hsv(rin,gin,bin,size,lvec,avec,bvec);
   
-  cs.rgb2lab(rin,gin,bin,size,lvec,avec,bvec);
+  /* compute superpixels using YCbCr color space */
+  // cs.rgb2ycbcr(rin,gin,bin,size,lvec,avec,bvec);
   
   getSeeds();
   performSuperpixel();
