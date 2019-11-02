@@ -28,6 +28,16 @@ Simply compile and run. There is a Makefile for a fast test.
  }
 ```
 
+Compute superpixels using different color space.
+
+#### C++
+```
+/* ------ Options: ---- */ 
+cs.rgb2lab(rin,gin,bin,size,lvec,avec,bvec); // CIELAB (default)
+cs.rgb2hsv(rin,gin,bin,size,lvec,avec,bvec); // use HSV color model
+cs.rgb2ycbcr(rin,gin,bin,size,lvec,avec,bvec); // use YCbCr color model
+```
+
 #### Example
 Sample using image 3063 taked from dataset [BSDS500](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/).
 ```
