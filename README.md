@@ -21,7 +21,7 @@ Simply compile and run. There is a Makefile for a fast test.
 ```
 /* ------ Options: ---- */ 
 {
-  Usage: slic_cli image1 image2 [superpixels]
+  Usage: slic_cli -i image1 -o image2 -s superpixels
  -i <input_file> 
  -o <output_file> 
  -s <number_of_superpixels>
