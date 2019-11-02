@@ -26,16 +26,12 @@ Simply compile and run. There is a Makefile for a fast test.
  -o <output_file> 
  -s <number_of_superpixels>
  }
-```
-
-Compute superpixels using different color space.
-
-#### C++
-```
-/* ------ Options: ---- */ 
+ 
+ /* ------ Compute superpixels using different color space ---- */ 
 cs.rgb2lab(rin,gin,bin,size,lvec,avec,bvec); // CIELAB (default)
 cs.rgb2hsv(rin,gin,bin,size,lvec,avec,bvec); // use HSV color model
 cs.rgb2ycbcr(rin,gin,bin,size,lvec,avec,bvec); // use YCbCr color model
+ 
 ```
 
 #### Example
