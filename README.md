@@ -29,8 +29,8 @@ Simply compile and run. There is a Makefile for a fast test.
  
  /* ------ Compute superpixels using different color space ---- */ 
 cs.rgb2lab(rin,gin,bin,size,lvec,avec,bvec); // CIELAB (default)
-cs.rgb2hsv(rin,gin,bin,size,lvec,avec,bvec); // use HSV color model
-cs.rgb2ycbcr(rin,gin,bin,size,lvec,avec,bvec); // use YCbCr color model
+cs.rgb2hsv(rin,gin,bin,size,hvec,svec,vvec); // use HSV color model
+cs.rgb2ycbcr(rin,gin,bin,size,yvec,bvec,rvec); // use YCbCr color model
  
 ```
 
